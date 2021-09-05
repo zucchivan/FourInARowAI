@@ -9,7 +9,7 @@ public class Main {
 	private int proximaJogada = -1;
 	private int profundidadeMaxima = 6;
 
-	public Main(Tabuleiro t) {
+		public Main(Tabuleiro t) {
 		this.t = t;
 		scanner = new Scanner(System.in);
 	}
@@ -18,9 +18,8 @@ public class Main {
 		Tabuleiro t = new Tabuleiro();
 		Main jogo = new Main(t);
 		jogo.jogar();
-		
+
 		/*
-		
 		jogo.testaProfundidade(1, Tabuleiro.OPONENTE, 10000);
 		jogo.testaProfundidade(2, Tabuleiro.OPONENTE, 10000);
 		jogo.testaProfundidade(3, Tabuleiro.OPONENTE, 10000);
@@ -34,8 +33,8 @@ public class Main {
 		jogo.testaProfundidade(4, Tabuleiro.IA, 10000);
 		jogo.testaProfundidade(5, Tabuleiro.IA, 10000);
 		jogo.testaProfundidade(6, Tabuleiro.IA, 10000);
-
 		 */
+
 	}
 
 	public void realizaJogadaOponente() {
@@ -316,7 +315,7 @@ public class Main {
 	public int getJogadaIA() {
 		proximaJogada = 3;
 		minimax(0, Tabuleiro.IA, Integer.MIN_VALUE, Integer.MAX_VALUE);
-		//System.out.println("IA obteu como melhor jogada: " + proximaJogada + "\n\n");
+		System.out.println("IA obteve como melhor jogada: " + proximaJogada + "\n\n");
 		return proximaJogada;
 	}
 
