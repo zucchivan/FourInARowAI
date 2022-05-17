@@ -19,6 +19,7 @@ public class Main {
 		Main jogo = new Main(t);
 		jogo.jogar();
 
+		/* TODO - Move this to a separated test file */
 		/*
 		jogo.testaProfundidade(1, Tabuleiro.OPONENTE, 10000);
 		jogo.testaProfundidade(2, Tabuleiro.OPONENTE, 10000);
