@@ -8,5 +8,5 @@ mvn clean install
 java -cp target/four-in-a-row-1.0-SNAPSHOT.jar com.zucchivan.Main
 ```
 # To-Do
-- i18n (everything is in portuguese)
+- i18n
 - tests
