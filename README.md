@@ -10,3 +10,5 @@ java -cp target/four-in-a-row-1.0-SNAPSHOT.jar com.zucchivan.Main
 # To-Do
 - i18n
 - tests
+- adjust to proper OOP
+- isolate utils methods
